@@ -3,7 +3,7 @@
         "home": "Heimat",
         "rules": "Regeln",
         "map": "Karte",
-        "serverip": "racoonia.net",
+        "modpack": "Modifikationspaket",
         "discord": "Zwietracht",
         "donate": "Spenden",
         "language": "Sprache",
@@ -27,5 +27,8 @@
         "chat": "Spamming, Caps, Werbung, Beleidigungen, Trolling, Drohungen oder Verstöße gegen geltendes Recht werden nirgendwo geduldet, auch nicht bei whisper.",
         "reporting": "Wenn Sie jemand im Chat unangenehm belästigt, wenden Sie sich bitte vertraulich an das Serverteam.",
         "links": "Der Spieler, der den Link geschickt hat, ist für die Links im Chat verantwortlich. Sei immer vorsichtig, wenn du sie öffnest."
+    },
+    "map": {
+        "unavailable": "Die Karte ist derzeit nicht verfügbar."
     }
 }

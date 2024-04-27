@@ -6,6 +6,7 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
 var rulesRouter = require("./routes/rules");
+var mapRouter = require("./routes/map");
 
 var app = express();
 
@@ -45,13 +46,15 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/rules", rulesRouter);
+app.use("/map", mapRouter);
 
 
 // Set variables
 app.locals.discordURL = "https://discord.gg/Bkua7AKRaa";
 app.locals.donateURL = "https://paypal.me/racooder";
-app.locals.serverIP = "racoonia.net",
+app.locals.serverIP = "mc.racoonia.net",
 app.locals.mapURL = "http://map.racoonia.net/";
+app.locals.modpackURL = "https://bit.ly/racoonia-modpack";
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

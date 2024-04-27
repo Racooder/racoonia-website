@@ -8,11 +8,13 @@ block header
                 span(class="header-field-text") #{t("header.home")}
             div(class=`header-field header-button${site == "rules" ? " header-button-active" : ""}`, onclick="window.location.href='/rules'")
                 span(class="header-field-text") #{t("header.rules")}
-            div(class="header-field header-button", onclick=`window.location.href='${mapURL}'`)
+            div(class=`header-field header-button${site == "map" ? " header-button-active" : ""}`, onclick="window.location.href='/map'")
                 span(class="header-field-text") #{t("header.map")}
+            div(class="header-field header-button", onclick=`window.location.href='${modpackURL}'`)
+                span(class="header-field-text") #{t("header.modpack")}
         div(class="right-header")
             div(class="header-field")
-                span(class="header-field-text") #{t("header.serverip")}
+                span(class="header-field-text") #{serverIP}
                 div(class="server-ip-container copyhint-active")
                     span(class="server-ip-copy server-ip-copy-active" onclick=`copyServerIP('${serverIP}', this)`) #{t("header.copyhint_active")}
                     span(class="server-ip-copy server-ip-copy-inactive") #{t("header.copyhint_inactive")}

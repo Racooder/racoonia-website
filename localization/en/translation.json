@@ -3,7 +3,7 @@
         "home": "Home",
         "rules": "Rules",
         "map": "Map",
-        "serverip": "racoonia.net",
+        "modpack": "Modpack",
         "discord": "Discord",
         "donate": "Donate",
         "language": "Language",
@@ -27,5 +27,8 @@
         "chat": "Spamming, caps, advertising, insults, trolling, threats or violations of applicable law are not tolerated anywhere, not even in whisper.",
         "reporting": "If someone is unpleasantly harassing you in the chat, please contact the server team in confidence.",
         "links": "The player who sent the link is responsible for the links in the chat. Always be careful when opening them."
+    },
+    "map": {
+        "unavailable": "The map is currently unavailable."
     }
 }
