@@ -1,0 +1,43 @@
+html {
+    counter-reset: rule;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ol {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.rules-list li {
+    counter-increment: rule;
+    margin-bottom: 0.5rem;
+}
+
+.rules-list li::before {
+    content: "§" counter(rule) ": ";
+    font-weight: bold;
+}
+
+.rules-list ol {
+    counter-reset: subrule;
+    margin-top: 0.5rem;
+}
+
+.rules-list ol li {
+    counter-increment: subrule;
+    margin: 0 0 0.5rem 0;
+}
+
+.rules-list ol li::before {
+    content: "§" counter(rule) "." counter(subrule) ": ";
+    font-weight: bold;
+}

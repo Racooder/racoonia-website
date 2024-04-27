@@ -1,0 +1,28 @@
+extends layout
+
+block header
+    div(class="header-container")
+        img(src="/images/logo.png", alt="logo", class="header-logo", onclick="window.location.href='/'")
+        div(class="left-header")
+            div(class=`header-field header-button${site == "index" ? " header-button-active" : ""}`, onclick="window.location.href='/'")
+                span(class="header-field-text") #{t("header.home")}
+            div(class=`header-field header-button${site == "rules" ? " header-button-active" : ""}`, onclick="window.location.href='/rules'")
+                span(class="header-field-text") #{t("header.rules")}
+            div(class="header-field header-button", onclick=`window.location.href='${mapURL}'`)
+                span(class="header-field-text") #{t("header.map")}
+        div(class="right-header")
+            div(class="header-field")
+                span(class="header-field-text") #{t("header.serverip")}
+                div(class="server-ip-container copyhint-active")
+                    span(class="server-ip-copy server-ip-copy-active" onclick=`copyServerIP('${serverIP}', this)`) #{t("header.copyhint_active")}
+                    span(class="server-ip-copy server-ip-copy-inactive") #{t("header.copyhint_inactive")}
+            div(class="header-field header-button" onclick=`window.location.href='${discordURL}'`)
+                span(class="header-field-text") #{t("header.discord")}
+            div(class="header-field header-button" onclick=`window.location.href='${donateURL}'`)
+                span(class="header-field-text") #{t("header.donate")}
+            div(class="header-field header-dropdown" onclick="toggleDropdown(this)" onmouseleave="closeDropdown(this)")
+                span(class="header-field-text") #{t("header.language")}
+                div(class="header-dropdown-content")
+                    div(class="header-dropdown-button" onclick="window.location.href='?lng=en'") English
+                    div(class="header-dropdown-button" onclick="window.location.href='?lng=de'") Deutsch
+    hr(class="header-separator")

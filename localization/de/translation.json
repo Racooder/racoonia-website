@@ -1,0 +1,31 @@
+{
+    "header": {
+        "home": "Heimat",
+        "rules": "Regeln",
+        "map": "Karte",
+        "serverip": "racoonia.net",
+        "discord": "Zwietracht",
+        "donate": "Spenden",
+        "language": "Sprache",
+        "copyhint_active": "KOPIEREN",
+        "copyhint_inactive": "KOPIERT!"
+    },
+    "welcome": {
+        "title": "Wilkommen auf Racoonia"
+    },
+    "rules": {
+        "title": "Gesetzbuch",
+        "intro1": "Wir freuen uns, dass du auf unserem Server spielen möchtest. Um ein gutes Spielerlebnis für alle Spieler zu gewährleisten, müssen Sie sich an einige Regeln halten.",
+        "intro2": "Die Regeln können jederzeit vom Serverteam geändert werden und es ist Ihre Pflicht, sich über alle Änderungen zu informieren. Größere Änderungen werden im Voraus angekündigt.",
+        "p1": "Würde oder so.",
+        "respectfullness": "Verhalte dich respektvoll und fair gegenüber den anderen Spielern und der Mannschaft.",
+        "hacks": "Die Verwendung von Mods, Hacks und anderen Tools, die dir einen Vorteil gegenüber anderen Spielern verschaffen, ist verboten! (Dazu gehören zum Beispiel: X-Ray, Fliege, Bot, etc.) Wenn ihr euch unsicher seid, fragt einen Admin!",
+        "contents": "Rassistische, beleidigende, pornographische, gewaltverherrlichende oder nach deutschem Recht illegale Inhalte sind auf dem gesamten Server verboten.",
+        "skin_and_name": "Dein Skin und dein Spielername dürfen nicht negativ auffallen oder gegen die Regeln verstoßen.",
+        "bugusing": "Das Ausnutzen von Fehlern ist streng verboten. Dies gilt sowohl für Minecraft-Bugs als auch für Bugs in unseren Plugins und Datapacks. Wenn Sie einen Fehler finden, melden Sie ihn bitte sofort dem Serverteam!",
+        "lost_items": "Aufgrund von Server-, Plugin- oder Datapack-Fehlern verschwundene Elemente werden nicht ersetzt.",
+        "chat": "Spamming, Caps, Werbung, Beleidigungen, Trolling, Drohungen oder Verstöße gegen geltendes Recht werden nirgendwo geduldet, auch nicht bei whisper.",
+        "reporting": "Wenn Sie jemand im Chat unangenehm belästigt, wenden Sie sich bitte vertraulich an das Serverteam.",
+        "links": "Der Spieler, der den Link geschickt hat, ist für die Links im Chat verantwortlich. Sei immer vorsichtig, wenn du sie öffnest."
+    }
+}

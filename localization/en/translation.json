@@ -1,0 +1,31 @@
+{
+    "header": {
+        "home": "Home",
+        "rules": "Rules",
+        "map": "Map",
+        "serverip": "racoonia.net",
+        "discord": "Discord",
+        "donate": "Donate",
+        "language": "Language",
+        "copyhint_active": "COPY",
+        "copyhint_inactive": "COPIED!"
+    },
+    "welcome": {
+        "title": "Welcome to Racoonia"
+    },
+    "rules": {
+        "title": "Civil Code",
+        "intro1": "We are pleased that you would like to play on our server. To ensure a good playing experience for all players, you must adhere to some rules.",
+        "intro2": "The rules can be changed at any time by the server team and it is your duty to inform yourself of any changes. Major changes will be announced in advance.",
+        "p1": "Dignity or something like that.",
+        "respectfullness": "Behave respectfully and fairly towards the other players and the team.",
+        "hacks": "The use of mods, hacks and other tools that give you an advantage over other players is prohibited! (This includes, for example: X-Ray, fly, bot, etc.) If you are unsure, ask an admin!",
+        "contents": "Racist, offensive, pornographic, violence-glorifying or illegal content under German law is prohibited on the entire server.",
+        "skin_and_name": "Your skin and player name must not stand out in any negative way or violate the rules.",
+        "bugusing": "Exploiting bugs is strictly prohibited. This includes Minecraft bugs as well as bugs in our plugins and datapacks. If you find a bug, please report it to the server team immediately!",
+        "lost_items": "Disappeared items due to server and plugin or datapack errors will not be replaced.",
+        "chat": "Spamming, caps, advertising, insults, trolling, threats or violations of applicable law are not tolerated anywhere, not even in whisper.",
+        "reporting": "If someone is unpleasantly harassing you in the chat, please contact the server team in confidence.",
+        "links": "The player who sent the link is responsible for the links in the chat. Always be careful when opening them."
+    }
+}

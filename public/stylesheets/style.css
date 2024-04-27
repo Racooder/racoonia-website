@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  background-color: #16171b;
+}
+
+body {
+  padding: 20px 50px;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-separator {
+  margin: 30px 0;
+}
+
+.left-header {
+  flex: 1;
+}
+
+.right-header {
+  flex: 1;
+  text-align: right;
+}
+
+.header-logo {
+  display: inline-block;
+  margin-right: 20px;
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+  cursor: pointer;
+}
+
+.header-field {
+  border: 1px solid #00B7FF;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.header-field-text {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.header-button {
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.header-button-active {
+  color: white;
+  background-color: #00B7FF;
+}
+
+.header-button:hover {
+  color: white;
+  background-color: #00B7FF;
+  transition: 0.07s;
+}
+
+.header-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1e1f24;
+  width: 110px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 10px 0 0 -16px;
+  border: 1px solid #00B7FF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 0 !important;
+}
+
+.header-dropdown-button:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header-dropdown-button {
+  padding: 12px 16px;
+  display: block;
+}
+
+.header-dropdown-button:hover {
+  background-color: #00B7FF;
+  color: white;
+}
+
+.header-dropdown-active {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.header-dropdown-active .header-dropdown-content {
+  display: block;
+}
+
+/* Server IP Copy */
+
+.server-ip-container {
+  display: inline;
+  margin-left: 10px
+}
+
+.copyhint-active {
+  cursor: pointer;
+}
+
+.server-ip-copy {
+  display: none;
+  color: #e0e0e0;
+  font-size: 0.8em;
+}
+
+.copyhint-active .server-ip-copy-active {
+  display: inline !important;
+}
+
+.copyhint-inactive .server-ip-copy-inactive {
+  display: inline !important;
+}

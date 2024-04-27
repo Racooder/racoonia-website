@@ -1,0 +1,21 @@
+extends header
+
+block head
+    link(rel='stylesheet', href='/stylesheets/rules.css')
+
+block content
+    h1=t("rules.title")
+    p=t("rules.intro1")
+    p=t("rules.intro2")
+    br
+    ol(class="rules-list")
+        li=t("rules.p1")
+        li=t("rules.respectfullness")
+        li=t("rules.hacks")
+        li=t("rules.contents")
+        li=t("rules.skin_and_name")
+        li=t("rules.bugusing")
+        li=t("rules.lost_items")
+        li=t("rules.chat")
+        li=t("rules.reporting")
+        li=t("rules.links")
